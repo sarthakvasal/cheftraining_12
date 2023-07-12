@@ -1,0 +1,51 @@
+{
+  "revision_id": "d76a253513e4aa1ba6df1843608e3f9589d5b54ede5e7d05ca0d072c2076dd5c",
+  "name": "apache",
+  "run_list": [
+    "recipe[apache::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "apache": {
+      "version": "0.2.0",
+      "identifier": "a8f9b72c625e95fa989e635055b959a5457c4370",
+      "dotted_decimal_identifier": "47562361206365845.70536550216127929.98566370247536",
+      "source": "../cookbooks/apache",
+      "cache_key": null,
+      "scm_info": {
+        "scm": "git",
+        "remote": null,
+        "revision": null,
+        "working_tree_clean": true,
+        "published": false,
+        "synchronized_remote_branches": [
+
+        ]
+      },
+      "source_options": {
+        "path": "../cookbooks/apache"
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "apache",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "apache (0.2.0)": [
+
+      ]
+    }
+  }
+}
